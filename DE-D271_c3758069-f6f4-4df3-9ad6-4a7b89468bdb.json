@@ -1,0 +1,106 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "type": "Manifest",
+    "id": "https://www.deutsche-digitale-bibliothek.de/item/ONHC2J5FTNPAWXO3PH662K6V4YOBSDUU",
+    "label": {"de": ["Gekrätzaufbereitung"]},
+    "rights": "http://www.deutsche-digitale-bibliothek.de/lizenzen/rv-fz/",
+    "provider": [{
+        "id": "https://www.deutsche-digitale-bibliothek.de/organization/UG6LMRBTZUJVW6YRDFGWG6CS2TMNUOK7",
+        "type": "Agent",
+        "label": {"de": ["Sächsisches Staatsarchiv"]},
+        "logo": [{
+            "id": "https://registrierung.deutsche-digitale-bibliothek.de/logos/00001166.png",
+            "type": "Image",
+            "format": "image/png"
+        }]
+    }],
+    "requiredStatement": {
+        "label": {"de": ["Attribution"]},
+        "value": {"de": ["Sächsisches Staatsarchiv"]}
+    },
+    "metadata": [
+        {
+            "label": {"de": ["Titel"]},
+            "value": {"de": ["Gekrätzaufbereitung"]}
+        },
+        {
+            "label": {"de": ["Verzeichnungsstufe"]},
+            "value": {"de": ["Archivalieneinheit"]}
+        },
+        {
+            "label": {"de": ["Signatur"]},
+            "value": {"de": ["Bestellnummer: 40133 Hütte Halsbrücke, Nr. 2-I151 (Zu benutzen im Bergarchiv Freiberg)"]}
+        },
+        {
+            "label": {"de": ["Kontext"]},
+            "value": {"de": ["40133 Hütte Halsbrücke >> 2. Risse >> 2.1. Übergreifende Angelegenheiten >> 2.1.2. Gebäude >> 2.1.2.2. Schmelzhütte"]}
+        },
+        {
+            "label": {"de": ["Laufzeit"]},
+            "value": {"de": ["1903-01-10/1903-01-10: 10. Januar 1903"]}
+        },
+        {
+            "label": {"de": ["Archivalientyp"]},
+            "value": {"de": ["Karten und Pläne"]}
+        },
+        {
+            "label": {"de": ["Sonstige Erschließungsangaben"]},
+            "value": {"de": ["Personen/Institutionen: Jeb.<br><br>Maßstab: 1:100<br><br>Format: 78,5 x 43<br><br>Registratursignatur: H. I. 122, G-XII-3"]}
+        },
+        {
+            "label": {"de": ["Bestand"]},
+            "value": {"de": ["40133 Hütte Halsbrücke"]}
+        },
+        {
+            "label": {"de": ["Rechteinformation"]},
+            "value": {"de": ["Es gilt die Sächsische Archivbenutzungsverordnung (SächsGVBl. Jg.2003, Bl.-Nr. 4 S. 79)"]}
+        },
+        {
+            "label": {"de": ["Rechtsstatus"]},
+            "value": {"de": ["Rechte vorbehalten - Freier Zugang"]}
+        }
+    ],
+    "homepage": [{
+        "id": "http://www.archiv.sachsen.de/archiv/bestand.jsp?guid=c3758069-f6f4-4df3-9ad6-4a7b89468bdb",
+        "format": "text/html",
+        "type": "Text",
+        "label": {"de": ["Link zum Objekt beim Datengeber"]},
+        "language": ["de"]
+    }],
+    "seeAlso": [{
+        "id": "https://www.deutsche-digitale-bibliothek.de/item/xml/ONHC2J5FTNPAWXO3PH662K6V4YOBSDUU",
+        "type": "Dataset",
+        "label": {"de": ["XML-Repräsentation in der DDB"]},
+        "format": "application/xml",
+        "profile": "http://www.europeana.eu/schemas/edm/EDM.xsd"
+    }],
+    "items": [{
+        "id": "http://3b2b0d32-bfa0-49ad-aca3-138ab8f622cc",
+        "type": "Canvas",
+        "label": {"de": ["1"]},
+        "height": 800,
+        "width": 600,
+        "items": [{
+            "id": "http://3b2b0d32-bfa0-49ad-aca3-138ab8f622cc_annotation_page",
+            "type": "AnnotationPage",
+            "items": [{
+                "id": "http://3b2b0d32-bfa0-49ad-aca3-138ab8f622cc_annotation",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "http://3b2b0d32-bfa0-49ad-aca3-138ab8f622cc",
+                "body": {
+                    "id": "https://iiif.deutsche-digitale-bibliothek.de/image/2/006eb1bd-e494-4ae3-b3f3-713b95c2c259/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "service": [{
+                        "id": "https://iiif.deutsche-digitale-bibliothek.de/image/2/006eb1bd-e494-4ae3-b3f3-713b95c2c259",
+                        "type": "ImageService2",
+                        "profile": "level2"
+                    }],
+                    "height": 800,
+                    "width": 600
+                }
+            }]
+        }]
+    }]
+}
