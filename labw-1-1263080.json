@@ -70,6 +70,14 @@
         {
             "label": {"de": ["Bestand"]},
             "value": {"de": ["Kaiserselekt"]}
+        },
+        {
+            "label": {"de": ["Rechteinformation"]},
+            "value": {"de": ["Es gelten die Nutzungsbedingungen des Landesarchivs Baden-Württemberg."]}
+        },
+        {
+            "label": {"de": ["Förderung"]},
+            "value": {"de": ["Neustart Kultur"]}
         }
     ],
     "homepage": [{
